@@ -1,27 +1,37 @@
 # OTML Practical 9: Directed Graphical Models
 
-## Objective
-To understand Directed Graphical Models using a simple music recommendation example.
+## 1. Aim
 
-## Concepts Covered
-- Nodes
-- Directed edges
-- Parent and child variables
-- Dependency representation
-- Probabilistic graphical models
+The aim of this practical is to understand Directed Graphical Models and represent dependencies among machine learning variables using a directed graph.
 
-## Tools Used
-- Python
-- NetworkX
-- Matplotlib
-- Jupyter Notebook
+In this practical, students create a simple directed graphical model for a Music Genre Recommendation example, where variables such as Age and Gender influence the predicted Music Genre.
 
-## Files Included
-- OTML_Practical_9.ipynb
-- README.md
+---
 
-## Learning Outcome
-Students will understand how variables and their dependencies can be represented using directed graphical models.
+## 2. Course and Module Mapping
 
-## Author
-Manish Chhabra
+**Course:** A8751 – Optimization Techniques in Machine Learning  
+**Module:** Module 1 – Model Fitting and Error Measurement  
+**Practical Topic:** Directed Graphical Models
+
+This practical is mapped with Module 1 of OTML, where students study model representation, probabilistic modelling, inference, and dependency structures used in machine learning.
+
+---
+
+## 3. Theory Background
+
+A Directed Graphical Model is a graph-based representation of relationships among variables.
+
+It contains:
+
+| Component | Meaning |
+|---|---|
+| Node | Represents a variable |
+| Directed edge | Represents direction of dependency |
+| Parent variable | Variable that influences another variable |
+| Child variable | Variable influenced by a parent variable |
+
+A directed edge is written as:
+
+```text
+A → B
